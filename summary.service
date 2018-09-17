@@ -3,7 +3,7 @@ Description=Message Board Application
 After=syslog.target network.target auditd.service
 
 [Service]
-ExecStart=/home/nononononobuchan/gcp-compute-engine/app_v1/app.py
+ExecStart=/home/nononononobuchan/summary/app.py
 ExecStop=/bin/kill -TERM $MAINPID
 
 [Install]
