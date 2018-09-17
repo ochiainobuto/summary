@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+  <!--Import materialize.css-->
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+  <meta charset="utf-8">
+  <title>文章要約</title>
+  <link rel="stylesheet" href="static/css/index.css">
+</head>
+
+<body>
+  <div class="row">
+    <!-- header -->
+    <header class="col s12 teal lighten-1">
+      <div class="col s12 offset-s1">
+        <a href="/"><p class="white-text">文章要約アプリ</p></a>
+      </div>
+    </header>
+
+    <div class="input_text input-field col s5 offset-s1">
+      <form id="summarize" action="/" method=post enctype=multipart/form-data>
+        <div class="input_text input-field">
+          <textarea name="text" class="materialize-textarea"></textarea>
+          <label for="textarea1">Type text you want to summarize</label>
+        </div>
+        <div class="col s2 offset-s9">
+          <button class="btn waves-effect waves-light" form="summarize" type="submit" name="summarize" value=Summarize>Summarize
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div class="output_summary input-field col s5">
+      <div class="input_text input-field">
+        <textarea id="textarea1" class="materialize-textarea" disabled>
+      </textarea>
+        <label for="textarea1">Summary</label>
+      </div>
+    </div>
+    <div class="col s1">
+    </div>
+  </div>
+
+</body>
+
+</html>
