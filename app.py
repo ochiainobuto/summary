@@ -1,4 +1,6 @@
-# coding: utf-8
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 from flask import Flask, render_template, request, redirect, url_for
 # 追加
 from summary import get_summary
@@ -16,6 +18,5 @@ def index():
 
     return render_template("index.html")
 
-# --- メインで実行される関数 ---
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+if __name__ == '__main__':
+    app.run(host="0.0.0.0", port=80, debug=False)
