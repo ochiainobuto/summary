@@ -10,5 +10,6 @@ sudo install.sh
 
 sudo systemctl enable summary.service  
 sudo systemctl start summary.service  
+sudo systemctl stop summary.service
 sudo systemctl status summary.service  
 sudo systemctl restart summary.service
