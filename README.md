@@ -6,7 +6,7 @@ git clone https://github.com/ochiainobuto/summary
 
 cd summary 
 
-sudo app_v1/install.sh  
+sudo install.sh  
 
 sudo systemctl enable summary.service  
 sudo systemctl start summary.service  
