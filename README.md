@@ -10,6 +10,11 @@ sudo pip install --upgrade setuptools
 sudo pip install --upgrade gcloud  
 git clone https://github.com/ochiainobuto/summary
 
+pip install numpy
+pip install scipy --no-cache-dir
+pip install gensim --no-cache-dir
+pip install janome --no-cache-dir
+
 cd summary 
 
 sudo install.sh  
