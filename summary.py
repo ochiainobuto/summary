@@ -18,9 +18,6 @@ from gensim.models import word2vec
 from janome.tokenizer import Tokenizer
 
 
-# In[3]:
-
-
 def lexrank(sentences, N, threshold):
 
     CosineMatrix = np.zeros([N, N])
@@ -44,9 +41,6 @@ def lexrank(sentences, N, threshold):
     return L
 
 
-# In[4]:
-
-
 def PowerMethod(CosineMatrix, N, err_tol):
     p_old = np.array([1.0/N]*N)
     err = 1
@@ -57,9 +51,6 @@ def PowerMethod(CosineMatrix, N, err_tol):
         err = np.linalg.norm(p - p_old)
         p_old = p
     return p
-
-
-# In[5]:
 
 
 def compute_cosine(v1, v2):
@@ -103,8 +94,6 @@ if __name__ == "__main__":
     pass     
 
 
-# In[6]:
-
 
 def sent_splitter_ja(text):
 
@@ -112,8 +101,6 @@ def sent_splitter_ja(text):
 
     return sentences
 
-
-# In[7]:
 
 
 tokenizer = Tokenizer()
@@ -137,8 +124,6 @@ def word_splitter(sent):
     return [n.base_form for n in tokenizer.tokenize(sent) if not _is_stopword(n)]
 
 
-# In[8]:
-
 
 import codecs
 
@@ -155,8 +140,6 @@ def load_pn_dict():
             
     return dic
 
-
-# In[9]:
 
 
 def get_summary(sentences):
