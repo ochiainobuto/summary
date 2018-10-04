@@ -10,11 +10,11 @@ sudo pip install --upgrade setuptools
 sudo pip install --upgrade gcloud  
 git clone https://github.com/ochiainobuto/summary  
 
-pip install numpy  
-pip install scipy --no-cache-dir  
-pip install gensim --no-cache-dir  
-pip install janome --no-cache-dir  
-pip install word2vec --no-cache-dir  
+sudo pip install numpy  
+sudo pip install scipy --no-cache-dir  
+sudo pip install gensim --no-cache-dir  
+sudo pip install janome --no-cache-dir  
+#pip install word2vec --no-cache-dir  
 
 pip install --upgrade pip setuptools  
 pip install ez-setup  
