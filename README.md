@@ -14,6 +14,7 @@ pip install numpy
 pip install scipy --no-cache-dir
 pip install gensim --no-cache-dir
 pip install janome --no-cache-dir
+pip install word2vec --no-cache-dir
 
 cd summary 
 
