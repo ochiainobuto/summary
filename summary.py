@@ -79,7 +79,7 @@ def sent2vec(bow, model_w):
 
 def compute_word2vec(sentences):
     
-    model_w = word2vec.Word2Vec.load("wiki.model")
+    model_w = word2vec.Word2Vec.load('./wiki.model')
     
     vector = []
     
