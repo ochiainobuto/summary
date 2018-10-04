@@ -10,6 +10,7 @@ sudo pip install --upgrade setuptools
 sudo pip install --upgrade gcloud  
 git clone https://github.com/ochiainobuto/summary  
 
+
 sudo pip install numpy  
 sudo pip install scipy --no-cache-dir  
 sudo pip install gensim --no-cache-dir  
@@ -23,6 +24,8 @@ pip install ./unroll
 
 >>>>>>>>>>>>>>>>>>>>>>>>>  
 sudo python app.py  
+#sudoで執行する場合、ライブラリーもsudoでインストールしなければ読み込めない  
+#改行は半角スペースを２つ  
 >>>>>>>>>>>>>>>>>>>>>>>>>  
 
 cd summary 
