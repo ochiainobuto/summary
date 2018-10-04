@@ -8,20 +8,22 @@ sudo apt-get -y install git python-pip python-dev python-flask python-wtforms py
 
 sudo pip install --upgrade setuptools  
 sudo pip install --upgrade gcloud  
-git clone https://github.com/ochiainobuto/summary
+git clone https://github.com/ochiainobuto/summary  
 
-pip install numpy
-pip install scipy --no-cache-dir
-pip install gensim --no-cache-dir
-pip install janome --no-cache-dir
-pip install word2vec --no-cache-dir
+pip install numpy  
+pip install scipy --no-cache-dir  
+pip install gensim --no-cache-dir  
+pip install janome --no-cache-dir  
+pip install word2vec --no-cache-dir  
 
-pip install --upgrade pip setuptools
-pip install ez-setup 
-git clone https://github.com/Zulko/unroll
-pip install ./unroll
+pip install --upgrade pip setuptools  
+pip install ez-setup  
+git clone https://github.com/Zulko/unroll  
+pip install ./unroll  
 
-
+>>>>>>>>>>>>>>>>>>>>>>>>>  
+sudo python app.py  
+>>>>>>>>>>>>>>>>>>>>>>>>>  
 
 cd summary 
 
