@@ -56,3 +56,7 @@ vi app.py（app.pyを修正、コマンドで:set ff=unixを叩いてから保�
 :set ff=unix  
 :wq  
 http://takeg.hatenadiary.jp/entry/2017/02/14/233109    
+
+<.serviceで起動したときは、参照ファイルはフルパスで指定する>  
+/home/nononononobuchan/summar/wiki.model  
+
