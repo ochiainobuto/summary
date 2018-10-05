@@ -60,3 +60,5 @@ http://takeg.hatenadiary.jp/entry/2017/02/14/233109
 <.serviceで起動したときは、import python内の参照ファイルはフルパスで指定する>  
 /home/nononononobuchan/summar/wiki.model  
 
+<viを保存せずに終了は？>  
+:q!  
