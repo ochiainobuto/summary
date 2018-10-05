@@ -15,12 +15,6 @@ sudo pip install numpy
 sudo pip install scipy --no-cache-dir  
 sudo pip install gensim --no-cache-dir  
 sudo pip install janome --no-cache-dir  
-#pip install word2vec --no-cache-dir  
-
-pip install --upgrade pip setuptools  
-pip install ez-setup  
-git clone https://github.com/Zulko/unroll  
-pip install ./unroll  
 
 >>>>>>>>>>>>>>>>>>>>>>>>>  
 sudo python app.py  
