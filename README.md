@@ -30,10 +30,8 @@ sudo systemctl enable summary.service
 sudo systemctl start summary.service  
 sudo systemctl status summary.service  
 
-sudo systemctl stop summary.service
+sudo systemctl stop summary.service  
+sudo systemctl restart summary.service  
 
-sudo systemctl restart summary.service
-
-<app.pyを新規で作ったら>
-
-chmod 700 /home/nononononobuchan/summary/app.py
+<app.pyを新規で作ったら>  
+chmod 700 /home/nononononobuchan/summary/app.py  
