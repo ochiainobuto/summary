@@ -24,7 +24,7 @@ sudo python app.py
 
 cd summary 
 
-sudo install.sh  
+sudo sh install.sh  
 
 sudo systemctl enable summary.service  
 sudo systemctl start summary.service  
