@@ -52,7 +52,7 @@ Oct  5 06:31:43 instance-7 app.py[12146]: /usr/bin/env: ‘python\r’: No such 
 vi でやる場合にはファイルを開いて以下のコマンドを打ってから、ファイルを保存してやれば OK です。」
 https://blog.cles.jp/item/10164  
 
-vi app.py（app.pyを修正、コマンドで:set ff=unixを叩いてから保存）
+vi app.py（app.pyを修正、コマンドで:set ff=unixを叩いてから保存）  
 :set ff=unix  
 :wq  
 http://takeg.hatenadiary.jp/entry/2017/02/14/233109    
