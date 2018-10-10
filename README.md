@@ -62,3 +62,8 @@ http://takeg.hatenadiary.jp/entry/2017/02/14/233109
 
 <viを保存せずに終了は？>  
 :q!  
+
+<Flakの同時アクセスを処理できるようにする設定方法>  
+app.run(host='localhost', port=3000, threaded=True)  
+
+
