@@ -1,6 +1,11 @@
-<GCEでインスタンスを作成＞＞＞debianでよい>
+<GCEでインスタンスを作成＞＞＞debianでよい>>>>HTTPトラフィックを許可するにチェック>　　
 
-<ネットワークから、静的な内部IPアドレスから、静的アドレスを予約をクリックし、新規のIPを追加>
+<ネットワークから、静的な内部IPアドレスから、静的アドレスを予約をクリックし、新規のIPを追加>　　
+
+※プロジェクトでサービスアカウントを作ってない場合　　
+>>>>>>>>APIとサービスから、認証情報へ。認証情報を作成で、サービスアカウントを選択。新しいサービスアカウントを選択しサービスアカウント名を入力 　　
+   
+<VMインスタンスを停止し、VMインスタンスの詳細から編集し、サービス アカウントを作ったものに変更>　　
 
 sudo apt-get -y update
 
@@ -8,8 +13,11 @@ sudo apt-get -y install git python-pip python-dev python-flask python-wtforms py
 
 sudo pip install --upgrade setuptools  
 sudo pip install --upgrade gcloud  
-git clone https://github.com/ochiainobuto/summary  
 
+git clone https://github.com/ochiainobuto/summary  
+※ZIPで上げるなら
+sudo apt-get install unzip
+unzip xxxx.zip
 
 sudo pip install numpy  
 sudo pip install scipy --no-cache-dir  
@@ -19,7 +27,8 @@ sudo pip install janome --no-cache-dir
 >>>>>>>>>>>>>>>>>>>>>>>>>  
 sudo python app.py  
 #sudoで実行する場合、ライブラリーもsudoでインストールしなければ読み込めない  
-#改行は半角スペースを２つ  
+#.serviceで起動しないと、SSHを閉じるとアクセスできない。
+#githubの改行は半角スペースを２つ  
 >>>>>>>>>>>>>>>>>>>>>>>>>  
 
 cd summary 
