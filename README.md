@@ -25,8 +25,8 @@ sudo pip install gensim --no-cache-dir
 sudo pip install janome --no-cache-dir  
 
 sudo pip install pydub --no-cache-dir  
-sudo pip install --upgrade google-api-python-client
-sudo pip install google-cloud-speech
+sudo pip install --upgrade google-api-python-client  
+sudo pip install google-cloud-speech  
 
 >>>>>>>>>>>>>>>>>>>>>>>>>  
 sudo python app.py  
