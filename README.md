@@ -31,6 +31,8 @@ sudo pip install google-cloud-speech
 sudo pip install --upgrade google-api-python-client  
 sudo pip install moviepy --no-cache-dir  
 sudo pip install oauth2client --no-cache-dir  
+sudo pip install google-cloud-translate --no-cache-dir  
+sudo pip install SpeechRecognition --no-cache-dir  
 
 >>>>>>>>>>>>>>>>>>>>>>>>>  
 sudo python app.py  
