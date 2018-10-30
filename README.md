@@ -18,6 +18,8 @@ git clone https://github.com/ochiainobuto/summary
 >※ZIPで上げるなら  
 >sudo apt-get install unzip  
 >unzip xxxx.zip  
+>フォルダごと削除するなら
+>sudo rm -rf xxxxx    
 
 sudo pip install numpy  
 sudo pip install scipy --no-cache-dir  
